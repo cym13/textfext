@@ -48,7 +48,7 @@ def main():
     path       = args["FILE"]
     filename   = path.split("/")[-1]
     preserve   = args["--preserve"]
-    size_limit = args["--size"] or 30
+    size_limit = args["--size"] or 50
     size_limit = int(size_limit)
 
     num = re.compile(r"^\s*([0-9]+)")
